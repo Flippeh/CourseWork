@@ -14,7 +14,7 @@ int function2(int n);
 int function3(int n);
 
 int main() {
-	int limit = 100000;
+	int limit = 15000;
 	double x = .25;
 	
 	
@@ -25,9 +25,9 @@ int main() {
 	std::ofstream funct2;
 	std::ofstream funct3;
 	output.open("output.csv"); // normal T(n) = n^2 output
-	funct1.open("T(n)dividesqrt(n).csv");
-	funct2.open("T(n)dividepow(n,2).csv");
-	funct3.open("T(n)divide(nlog(n)).csv");
+	funct1.open("function1.csv"); // T(n)/sqrt(n)
+	funct2.open("function2.csv"); // T(n) / n2
+	funct3.open("function3.csv"); // T(n)/n*ln(n) 
 
 
 	for (int i = 100; i < limit + 1; i+=100) {
