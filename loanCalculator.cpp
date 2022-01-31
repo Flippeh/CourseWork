@@ -6,7 +6,7 @@
 // Used a Stackoverflow question regarding verifying input data is correct datatype and to learn about setw()
 //
 // For the most part, I did this project entirely on my own and struggled with the table, but figured 
-// it out through trial and error. This took me many many hours.
+// it out through trial and error. 
 
 
 #include <iostream>
