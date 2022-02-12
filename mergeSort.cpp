@@ -1,4 +1,4 @@
-// David Braswell and Emily Richardson for Intro to Algorithms
+// David Braswell for Intro to Algorithms
 // compiled by writing "g++ mergeSort.cpp -std=c++11"
 
 
